@@ -4,7 +4,7 @@ const style = {
   background: "#EAF6F6",
   border: "2px solid #66BFBF",
   color: "#F76B8A",
-  fontSize: "40px",
+  fontSize: "50px",
   fontWeight: "700",
   cursor: "pointer",
   outline: "none",

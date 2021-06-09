@@ -1,0 +1,21 @@
+.header {
+    color: #F76B8A;
+    text-align: center;
+}
+.next-player {
+    width: 200px;
+    margin: 0 auto;
+    color: #3d7272;
+    font-size: 22px;
+    text-align: center;
+
+}
+.start-btn {
+    background: #F76B8A;
+    border: 2px solid hsl(347, 90%, 69%);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
