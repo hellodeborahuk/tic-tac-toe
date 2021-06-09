@@ -23,10 +23,10 @@ const Game = () => {
   return (
     <>
     <h1 className="header">Tic Tac Toe</h1>
-      <Board squares={board} onClick={handleClick} />
+      <Board winner={winner} squares={board} onClick={handleClick} />
       <div className="next-player"> 
       <p>
-          {winner ? "The winner is " + winner : "The next player is " + (xIsNext ? "X" : "0")}
+          {winner ? "The winner is " + winner.player : "The next player is " + (xIsNext ? "X" : "0")}
       </p>
       {renderMoves()}
       </div>
